@@ -33,7 +33,7 @@ public class GuavaCacheServiceTest {
     }
 
     @Test
-    public void testCacheStatistics() throws InterruptedException {
+    public void testCacheStatistics() {
         cacheService.put("key1", "value1");
         cacheService.put("key2", "value2");
 
